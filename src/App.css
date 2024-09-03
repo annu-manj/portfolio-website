@@ -1,38 +1,87 @@
+/* src/App.css */
+
 .App {
-  text-align: center;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sidebar {
+  width: 35%;
+  /*background-color: #0a192f;*/
+  background-color: #A48374;
+  color: #fbfdfb;
+  padding: 4.5rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidebar h2 {
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.sidebar p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.sidebar nav ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 7rem;
+}
+
+.sidebar nav ul li {
+  margin-bottom: 0.8rem;
+}
+
+.sidebar nav ul li a {
+  color: #fbfdfb;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.sidebar .social-icons a {
+  color: #fbfdfb;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.content {
+  width: 70%;
+  overflow-y: scroll;
+  background-color: #A48374;
+  padding: 3rem;
+  color: #fbfdfb;
+}
+
+.section {
+  margin-bottom: 5rem;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.certificate-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.2); /* Highlight color for the link */
+  color: #fbfdfb; /* Text color */
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  font-weight: bold;
+}
+
+.certificate-link:hover {
+  background-color: #A48374; /* Slightly different color on hover */
 }

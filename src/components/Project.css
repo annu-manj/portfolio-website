@@ -1,0 +1,72 @@
+/* src/components/Project.css */
+
+.project-section {
+    width: 90%; /* Adjust width according to your layout */
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .project-container {
+    background-color: #A48374;
+    color: #fbfdfb;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  .project-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .project-link {
+    color: #fbfdfb; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.project-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+  .experience-row {
+    display: flex;
+    justify-content: space-between; /* To distribute space between boxes */
+    gap: 1rem; /* Adjust space between boxes */
+}
+
+.experience-box {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    justify-content: space-between; /* Space between content and bottom-aligned items */
+    flex: 1; /* Grow boxes equally */
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Blur effect to create the frosted glass look */
+    -webkit-backdrop-filter: blur(10px); /* Safari support for the blur effect */
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+/* Optional: Add this if you want to limit each box to a specific width 
+.experience-box {
+    max-width: calc(50% - 0.5rem); /* Each box takes up half the row width minus the gap 
+}*/
+
+
+
+  .project-details {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-date,
+  .project-skills {
+      margin-top: auto; /* Push to the bottom */
+      padding-top: 0.5rem;
+  }
+  
+  .project-skills {
+      border-top: 1px solid #ccd6f6;
+      font-weight: bold;
+      font-size: 1rem;
+  }

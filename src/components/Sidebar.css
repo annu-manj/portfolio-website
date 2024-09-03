@@ -1,0 +1,50 @@
+/* src/components/Sidebar.css */
+
+.sidebar {
+    width: 60%;
+    background-color: #0a192f;
+    color: #ccd6f6;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+  }
+  
+  .sidebar h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .sidebar p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav ul li {
+    margin-bottom: 0.8rem;
+  }
+  
+  .sidebar nav ul li a {
+    color: #ccd6f6;
+    text-decoration: none;
+    font-size: 0.5rem;
+  }
+  
+  .sidebar .social-icons a {
+    color: #ccd6f6;
+    margin-right: 1rem;
+    text-decoration: none;
+  }
+  
