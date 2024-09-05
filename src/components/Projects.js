@@ -59,7 +59,7 @@ const Projects = () => {
               </div>
               <div class="experience-box">
                 
-                  <h3 className="project-title"><a href="yhttps://github.com/annu-manj/Sentiment-Analysis" target="_blank" class="project-link">Sentiment Analysis</a></h3>
+                  <h3 className="project-title"><a href="https://github.com/annu-manj/Sentiment-Analysis" target="_blank" class="project-link">Sentiment Analysis</a></h3>
                   <p className="project-details">
                   The "Amazon Alexa Review - Sentiment Analysis" project is focused on analyzing customer reviews of Amazon Alexa products 
                   to predict whether the sentiment expressed in a given review is positive or negative. Reviews are predicted using Random Classifier Algorithm.
@@ -90,7 +90,7 @@ const Projects = () => {
                   </div>
               </div>
               <div class="experience-box">
-                  <h3 className="project-title"><a href="https://github.com/annu-manj/homedecor/blob/main/README." target="_blank" class="project-link">Home Decor Ecommerce Website</a></h3>
+                  <h3 className="project-title"><a href="https://github.com/annu-manj/homedecor" target="_blank" class="project-link">Home Decor Ecommerce Website</a></h3>
                   <p className="project-details">
                   Developed a e-commerce website for furniture using PHP, HTML, CSS, Bootstrap and MySQL.
                   </p>
