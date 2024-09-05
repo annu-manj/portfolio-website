@@ -16,8 +16,7 @@ const Skills = () => {
     { name: 'Power BI', logo: 'fa-solid fa-chart-bar' },
     { name: 'Excel', logo: 'fa-solid fa-file-excel' },
     { name: 'RESTful API', logo: 'fa-solid fa-cloud' },
-    { name: 'AWS EC2', logo: 'fa-brands fa-aws' },
-    { name: 'AWS S3', logo: 'fa-brands fa-aws' },
+    { name: 'AWS', logo: 'fa-brands fa-aws' },
     { name: 'Git/GitHub', logo: 'fa-brands fa-github' },
     { name: 'Postman', logo: 'fa-solid fa-envelope' },
     { name: 'Debugging', logo: 'fa-solid fa-bug' },
@@ -29,8 +28,66 @@ const Skills = () => {
       <div className="skills-grid">
         {skillsList.map((skill, index) => (
           <div key={index} className="skill-item">
-            <i className={`${skill.logo} skill-icon`}></i>
+            {skill.name === 'Flask' ? (
+              <img
+                src="/flask.png"
+                alt="Flask Logo"
+                className="skill-image"
+              />
+            ) : skill.name === 'Python' ? (
+              <img
+                src="/python.png"
+                alt="Python Logo"
+                className="skill-image"
+              />
+            ):skill.name === 'Django' ? (
+              <img
+                src="/django.png"
+                alt="django Logo"
+                className="skill-image"
+              />
+            ):skill.name === 'Python' ? (
+              <img
+                src="/python.png"
+                alt="Python Logo"
+                className="skill-image"
+              />
+            ):skill.name === 'Java' ? (
+              <img
+                src="/java.png"
+                alt="java Logo"
+                className="skill-image"
+              />
+            ):skill.name === 'PostgreSQL' ? (
+              <img
+                src="/postgresql.png"
+                alt="Python Logo"
+                className="skill-image"
+              />
+            ):skill.name === 'Excel' ? (
+              <img
+                src="/excel.png"
+                alt="Python Logo"
+                className="skill-image"
+              />
+            ):skill.name === 'Power BI' ? (
+              <img
+                src="/powerbi.png"
+                alt="Python Logo"
+                className="skill-image"
+              />
+            ):skill.name === 'Postman' ? (
+              <img
+                src="/postman.png"
+                alt="Python Logo"
+                className="skill-image"
+              />
+            ):(
+              <i className={`${skill.logo} skill-icon`}></i>
+            )}
             <p className="skill-name">{skill.name}</p>
+            
+            
           </div>
         ))}
       </div>

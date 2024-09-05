@@ -5,13 +5,16 @@
 }
 
 .skills-section-container h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 0.9rem;
+  font-size: 1.3rem;
+ 
 }
 
 .skills-grid {
+  margin-left: 1rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); /* Auto-fill with equal-sized columns */
-  gap: 2.8rem; /* Space between boxes */
+  gap: 2.3rem; /* Space between boxes */
   justify-items: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
 }
@@ -45,4 +48,11 @@
 .skill-name {
   font-size: 0.9rem;
   margin: 0;
+}
+.skill-image {
+  width: 40px; /* Adjust the size of the Flask logo */
+  height: 40px;
+  margin-bottom: 0.4rem;
+  object-fit: contain; /* Ensures image scaling without distortion */
+  background: none;
 }

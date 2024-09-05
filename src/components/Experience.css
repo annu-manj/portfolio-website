@@ -5,6 +5,9 @@
     margin: 0 auto;
     padding: 2rem;
   }
+  .experience-section h2{
+    font-size: 1.3rem;
+  }
   
   .experience-container {
     background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
@@ -18,7 +21,7 @@
   }
   
   .experience-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 1rem;
   }
   
@@ -75,15 +78,17 @@
     gap: 1rem;
   }
   .skill-pill {
-    background-color: rgba(255, 255, 255, 0.2);
+    /*background-color: #c4c4e2;*/
+    background-color: #b7b7e0;
     color: #fbfdfb;
     padding: 0.3rem 0.75rem;
     border-radius: 20px;
     font-size: 0.85rem;
+    font-weight: 450;
     display: inline-block;
     margin-bottom: 0.5rem;
-    border: 1px solid rgba(255, 255, 255, 0.3); 
-    transition: background-color 0.3s ease;
+    border: 1px solid #ec96c1; 
+    /*transition: background-color 0.3s ease;*/
   }
   
   .skill-pill:hover{
