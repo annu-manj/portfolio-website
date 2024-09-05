@@ -26,12 +26,44 @@
     font-size: 1rem;
     margin-bottom: 0.5rem;
   }
+  .experience-date-container {
+    display: flex;
+    
+    align-items: center;
+    margin-bottom: 1rem;
+  }
   
   .experience-date {
     font-style: italic;
     margin-bottom: 1rem;
+    vertical-align: middle;
+    display: inline-block;
+  }
+  .certificate-link {
+    display: inline-block;
+    /*margin-top: 1rem;*/
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    color: #fbfdfb; /* Text color */
+    text-decoration: none;
+    
+    vertical-align: middle;
+    
+    font-weight: bold;
+    margin-left: 0.3rem; /* Fine-tune spacing */
+    padding: 0.2rem; /* Remove unnecessary padding */
+    background: none; /* Ensure no background color */
+    border: none; /* Ensure no border */
+  }
+  .certificate-link i {
+    display: inline-block;
+    
+    transition: color 0.3s ease; /* Smooth color transition for the icon */
   }
   
+  .certificate-link i:hover {
+    color: #A48374; /* Change the icon color on hover */
+  }
   .experience-skills {
     margin-top: 1rem;
     padding-top: 1rem;
@@ -57,3 +89,5 @@
   .skill-pill:hover{
     background-color: rgba(255, 255, 255, 0.3);
   }
+  
+ 

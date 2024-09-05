@@ -4,7 +4,7 @@ import './Experience.css';
 
 const Experience = () => {
   return (
-    <div className="experience-section">
+    <div className="experience-section" id="experience">
       <h2>Work Experience</h2>
 
       <div className="experience-container">
@@ -16,14 +16,17 @@ const Experience = () => {
           generation to create roadmap suggestions. Employed supervised fine-tuning with custom parameters
           including LoRA attention and Bits and Bytes quantization on LLaMA-2 model.
         </p>
-        <p className="experience-date">January 8, 2024 – April 29, 2024</p><a
-          href="/Major_project_intern.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="certificate-link"
-        >
-          View Certificate
-        </a>
+        <div className="experience-date-container">
+          <p className="experience-date">January 8, 2024 – April 29, 2024</p>
+          <a
+            href="/Major_project_intern.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="certificate-link"
+          >
+            <i class="fa-solid fa-paperclip"></i>
+          </a>
+        </div>
         <div className="experience-skills">
         <span className="skill-pill">Flask </span>
         <span className="skill-pill">Restful API</span>
@@ -58,7 +61,7 @@ const Experience = () => {
           rel="noopener noreferrer"
           className="certificate-link"
         >
-          View Certificate
+         <i class="fa-solid fa-paperclip"></i>
         </a>
         <div className="experience-skills">
         <span className="skill-pill">Python</span>
@@ -83,7 +86,7 @@ const Experience = () => {
           rel="noopener noreferrer"
           className="certificate-link"
         >
-          View Certificate
+          <i class="fa-solid fa-paperclip"></i>
         </a>
         <div className="experience-skills">
         <span className="skill-pill">AWS EC2</span>

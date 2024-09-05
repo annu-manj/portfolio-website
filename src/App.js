@@ -15,12 +15,18 @@ function App() {
     <div className="App">
       <Sidebar />
       <div className="content">
-        <About />
-        <Skills />
-        <Experience />
-        <Projects />
+        
+          <About />
+        
+          <Skills />
+        
+          <Experience />
+        
+          <Projects />
+        
       </div>
     </div>
+    
   );
 }
 

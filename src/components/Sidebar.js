@@ -1,5 +1,8 @@
 // src/components/Sidebar.js
 import React from 'react';
+
+
+
 //import './Sidebar.css';
 
 const Sidebar = () => {
@@ -17,9 +20,10 @@ const Sidebar = () => {
       </nav>
       <div className="social-icons">
         {/* Add your social icons here */}
-        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://github.com/annu-manj" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ananya-manoj-032932252/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
         {/* Add other social links similarly */}
+        <a href="" target="_blank" rel="ananyamanoj898@gmail.com"><i class="fa-solid fa-envelope"></i></a>
       </div>
     </div>
   );

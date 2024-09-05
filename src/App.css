@@ -46,12 +46,14 @@
   color: #fbfdfb;
   text-decoration: none;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .sidebar .social-icons a {
   color: #fbfdfb;
   margin-right: 1rem;
   text-decoration: none;
+  font-size: 1.5rem;
 }
 
 .content {
@@ -69,19 +71,4 @@
 .section h2 {
   font-size: 2rem;
   margin-bottom: 1.5rem;
-}
-.certificate-link {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: rgba(255, 255, 255, 0.2); /* Highlight color for the link */
-  color: #fbfdfb; /* Text color */
-  text-decoration: none;
-  border-radius: 5px;
-  border: 1px solid rgba(255, 255, 255, 0.3); 
-  font-weight: bold;
-}
-
-.certificate-link:hover {
-  background-color: #A48374; /* Slightly different color on hover */
 }
