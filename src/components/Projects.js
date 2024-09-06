@@ -15,7 +15,7 @@ const Projects = () => {
                   The code is designed to create a simple hand-tracking game using OpenCV and MediaPipe. 
                   In this game, a player uses their hand (specifically the index finger) to touch a moving 
                   target (a green circle) on the screen. When the player touches 
-                  the enemy, it disappears and reappears at a new random location, and the player’s score increases.
+                  the target, it disappears and reappears at a new random location, and the player’s score increases.
                   </p>
                   <br></br>
                   <div className="project-skills">

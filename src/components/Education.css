@@ -1,0 +1,57 @@
+
+.education-section{
+    width: 90%; /* Adjust width according to your layout */
+    margin: 0 auto;
+    padding: 2rem;
+
+}
+.education-container
+{
+    
+    
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+.education-row{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+   
+}
+.education-box {
+    display: flex;
+    flex-direction: row; /* Arrange items in a column */
+    align-items: center;
+    /* Space between content and bottom-aligned items */
+    flex: 1; /* Grow boxes equally */
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Blur effect to create the frosted glass look */
+    -webkit-backdrop-filter: blur(10px); /* Safari support for the blur effect */
+    padding: 1.5rem;
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+img  {
+    width: 50px; /* Set the width */
+    height: auto;
+    margin-right: 1rem;
+}
+.edu-details {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+
+  } 
+  .edu-title {
+    font-size: 1.2rem;
+    margin: 0;
+} 
+.college, .mark {
+    font-size: 0.9rem;
+}    
+        
+
+

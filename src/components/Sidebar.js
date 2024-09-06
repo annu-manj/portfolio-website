@@ -20,10 +20,12 @@ const Sidebar = () => {
         <ul>
           <li><a href="#about">About Me</a></li>
           <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
         </ul>
       </nav>
+      
       <div className="social-icons">
         {/* Add your social icons here */}
         <a href="https://github.com/annu-manj" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
