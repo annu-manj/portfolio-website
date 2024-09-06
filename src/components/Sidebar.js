@@ -11,7 +11,7 @@ const Sidebar = () => {
       <h1>Ananya Manoj</h1>
       <div className="contact">
         
-          <p className='mail'>ananyamanoj898@gmail.com</p><p className='bar'> | </p><p className='number'>+91-9384618403</p> <p className='bar'> | </p>
+          <p className='mail'>ananyamanoj898@gmail.com</p><p className='bar'> | </p><p className='number'>+91 9384618403</p> <p className='bar'> | </p>
           <p><a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume </a></p>
         
       </div>
