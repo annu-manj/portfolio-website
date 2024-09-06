@@ -11,7 +11,8 @@ const Sidebar = () => {
       <h1>Ananya Manoj</h1>
       <div className="contact">
         
-          <p className='mail'>ananyamanoj898@gmail.com</p><p className='bar'> | </p><p className='number'>+91-9384618403</p>
+          <p className='mail'>ananyamanoj898@gmail.com</p><p className='bar'> | </p><p className='number'>+91-9384618403</p> <p className='bar'> | </p>
+          <p><a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume </a></p>
         
       </div>
       
@@ -25,12 +26,11 @@ const Sidebar = () => {
           <li><a href="#projects">Projects</a></li>
         </ul>
       </nav>
-      
+        
       <div className="social-icons">
         {/* Add your social icons here */}
         <a href="https://github.com/annu-manj" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i></a>
         <a href="https://www.linkedin.com/in/ananya-manoj-032932252/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
-        {/* Add other social links similarly */}
         
       </div>
     </div>
