@@ -11,9 +11,20 @@
   .sidebar {
     width: 100%;
     padding: 2rem;
-    
+    overflow-y: hidden;
     color: #fbfdfb;
+    margin: 0 15px;
   }
+    
+  .content {
+    flex-grow: 1;
+    width: 100%;
+    padding: 0.2rem;
+    overflow-y: auto;
+    color: #fbfdfb;
+
+  }
+  
   .sidebar h1 {
     font-size: 2.5rem;
     margin-bottom: 0.1rem;
@@ -116,15 +127,7 @@
     transform: scale(1.2); /* Scale up the icon on hover */
   }
   
-  
-  .content {
-    flex-grow: 1;
-    width: 100%;
-    padding: 0.3rem;
-    overflow-y: auto;
-    color: #fbfdfb;
-  }
-  
+
   /* Media query for smaller screens (mobile view) */
   @media (max-width: 768px) {
     .App {
@@ -134,11 +137,13 @@
     .sidebar {
       order: 1;
       width: 100%;
+      
     }
   
     .content {
       order: 2;
       width: 100%;
+      
     }
     .sidebar nav ul {
         /*margin-bottom: 4rem; /* Reduce margin on mobile */
@@ -158,6 +163,7 @@
         position: fixed; /* Sidebar stays fixed */
         top: 0;
         left: 0;
+        overflow-y: hidden;
     }
   
     .content {
@@ -165,7 +171,7 @@
         padding: 3rem;
         margin-left: 40%; /* Push content to the right of the sidebar */
         height: 100vh; /* Full height of the viewport */
-        overflow-y: scroll; /* Content section scrolls */
+         /* Content section scrolls */
     }
   }
   
