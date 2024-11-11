@@ -17,7 +17,7 @@ const Education = () => {
                     <div className="edu-details">   
                         <h3 className="edu-title">MCA</h3>
                         <span className="college">University of Madras</span>
-                        <span className="mark">CGPA : 8.176</span>
+                        <span className="mark">CGPA : 8.336</span>
                     </div>
                     
                 </div>
