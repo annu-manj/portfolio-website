@@ -38,7 +38,7 @@ const Education = () => {
                         <img className="emblem" src='kv2.png'/>
                     </div>
                     <div className="edu-details">   
-                        <h3 className="edu-title">SSE</h3>
+                        <h3 className="edu-title">SSCE</h3>
                         <span className="college">Kendriya Vidyalaya No.2</span>
                         <span className="mark">80%</span>
                     </div>
@@ -47,7 +47,7 @@ const Education = () => {
                 <div class="education-box">
                     <div className="emble-container"><img className="emblem" src='kv2.png'/></div>
                     <div className="edu-details">
-                        <h3 className="edu-title">SSCE</h3>
+                        <h3 className="edu-title">SSE</h3>
                         <span className="college">Kendriya Vidyalaya No.2</span>
                         <span className="mark">95%</span>
                     </div>
