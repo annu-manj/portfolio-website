@@ -144,7 +144,7 @@
   .App {
     flex-direction: column; /* Stack sidebar and content vertically */
     height: auto; /* Let the container grow naturally */
-    min-height: 100vh; /* Ensures the content expands at least the full height */
+    min-height: 770vh; /* Ensures the content expands at least the full height */
     overflow-y: auto; 
      /* Ensure proper positioning */
   }
