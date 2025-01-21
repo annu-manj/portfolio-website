@@ -129,7 +129,7 @@
   
 
   /* Media query for smaller screens (mobile view) */
-  @media (max-width: 768px) {
+  /*@media (max-width: 768px) {
     .App {
       flex-direction: column;
     }
@@ -173,5 +173,5 @@
         height: 100vh; /* Full height of the viewport */
          /* Content section scrolls */
     }
-  }
+  }*/
   
