@@ -167,7 +167,7 @@
     }
   
     .content {
-        width: 60%;
+        width: 40%;
         padding: 3rem;
         margin-left: 40%; /* Push content to the right of the sidebar */
         height: 100vh; /* Full height of the viewport */
