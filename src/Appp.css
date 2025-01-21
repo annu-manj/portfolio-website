@@ -140,6 +140,8 @@
 
 /* Media query for smaller screens (mobile view) */
 /* Media query for mobile devices */
+
+/*
 @media (max-width: 768px) {
   .App {
     flex-direction: column; /* Stack sidebar and content vertically */
@@ -147,7 +149,7 @@
     min-height: 770vh; /* Ensures the content expands at least the full height */
     overflow-y: auto; 
      /* Ensure proper positioning */
-  }
+ /* }
 
   .sidebar {
     width: 90%;
@@ -157,8 +159,8 @@
     flex-direction: column;
     justify-content: flex-start;
     overflow-y: auto; /* Allow content within the sidebar to scroll */
-    position: relative; /* Make sure it's not fixed */
-    max-height: none; 
+  /*  position: relative; /* Make sure it's not fixed */
+  /*   max-height: none; 
 
   }
 
@@ -167,20 +169,20 @@
     order: 2;
     display: block; /* Show the content section */
     padding: 2rem; /* Reduce padding for mobile */
-  }
+ /*  }
 
   .sidebar nav ul {
     /*margin-bottom: 4rem; /* Reduce margin on mobile */
     display: none;
-  }
+ /*  }
 
   .sidebar h1 {
     font-size: 2rem; /* Adjust heading size */
-  }
+ /*  }
 
   .sidebar h2 {
     font-size: 0.9rem; /* Adjust subheading size */
-    padding-right: 10px;
+ /*    padding-right: 10px;
   }
 }
 
