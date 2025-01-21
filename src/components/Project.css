@@ -94,7 +94,7 @@
     border: 1px solid #ec96c1; 
     /*transition: background-color 0.3s ease;*/
   }
-
+/*
   @media (max-width: 768px) {
     .project-section{
       width: 80%;
@@ -102,6 +102,6 @@
 
     .experience-row {
       display: block; /* Make all experience boxes display as a block element (one below the other) */
-      margin-bottom: 2rem; /* Add margin below each row */
-  }
+  /*    margin-bottom: 2rem; /* Add margin below each row */
+  /*}
   
