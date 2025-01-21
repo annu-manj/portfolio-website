@@ -147,7 +147,7 @@
     }
     .sidebar nav ul {
         /*margin-bottom: 4rem; /* Reduce margin on mobile */
-        display: none;
+ /*       display: none;
       }
   }
   
@@ -160,8 +160,8 @@
         width: 40%;
         padding: 5rem;
         height: 100vh; /* Full height of the viewport */
-        position: fixed; /* Sidebar stays fixed */
-        top: 0;
+  /*      position: fixed; /* Sidebar stays fixed */
+  /*      top: 0;
         left: 0;
         overflow-y: hidden;
     }
@@ -170,8 +170,8 @@
         width: 40%;
         padding: 3rem;
         margin-left: 40%; /* Push content to the right of the sidebar */
-        height: 100vh; /* Full height of the viewport */
+  /*      height: 100vh; /* Full height of the viewport */
          /* Content section scrolls */
-    }
+ /*   }
   }*/
   
