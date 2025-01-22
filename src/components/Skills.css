@@ -56,7 +56,7 @@
   object-fit: contain; /* Ensures image scaling without distortion */
   background: none;
 }
-/*
+
 @media (max-width: 768px) {
   .skills-section-container {
     width: 80%;

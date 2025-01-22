@@ -20,7 +20,7 @@
     flex-grow: 1;
     width: 100%;
     padding: 0.2rem;
-    overflow-y: auto;
+    overflow-y  : auto;
     color: #fbfdfb;
 
   }
